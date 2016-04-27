@@ -9,8 +9,10 @@ import java.net.*;		//URL,MalformedURLException
 public class Puyo_Puyo extends JFrame
 {
 	public GamePane gp;			//GamePane is subclass of JComponent on which the puyos are moved
-	private int width,height;
-	private int rows,cols;
+	private int width;
+	private int height;
+	private int rows;
+	private int cols;
 	int puyo_len;			//holds the length of the each puyo(because it is a square piece)
 	public Dimension screenSize;	//holds the dimension of the screen interms of resolution
 
